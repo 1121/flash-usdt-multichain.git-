@@ -1,0 +1,20 @@
+// File: frontend/index.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flash USDT Multichain</title>
+    <script src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.min.js"></script>
+    <script defer src="app.js"></script>
+</head>
+<body>
+    <h2>Flash USDT Sender</h2>
+    <button onclick="connectWallet()">Connect Wallet</button>
+    <br><br>
+    <label>Recipient Address:</label>
+    <input type="text" id="recipient">
+    <br><br>
+    <button onclick="flashMintAndTransfer()">Mint & Transfer Flash USDT</button>
+</body>
+</html>
